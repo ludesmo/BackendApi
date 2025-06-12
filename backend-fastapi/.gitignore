@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+*.log
+.env
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Excel generado
+archivo_generado.xlsx
+
+# VSCode settings
+.vscode/
+
+# Mac/Windows hidden files
+.DS_Store
+Thumbs.db
