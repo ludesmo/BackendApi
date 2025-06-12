@@ -29,3 +29,6 @@ def download_excel():
         filename=filename,
         media_type='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
     )
+
+def read_root():
+    return {"message": "API en funcionamiento"}
