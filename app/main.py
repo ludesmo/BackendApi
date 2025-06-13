@@ -11,7 +11,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:4200"],
+    allow_origins=["https://5b5w6tb7-4200.brs.devtunnels.ms/"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
